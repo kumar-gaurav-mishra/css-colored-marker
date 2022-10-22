@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50vw;
+    margin: 5vh auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px auto 20px auto;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.marker {
+    margin: 16px auto 16px auto;
+    width: 300px;
+    height: 35px;
+    background-color: black;
+
+}
+
+.red {
+    background: linear-gradient(180deg, rgb(255, 0, 0), rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.9));
+}
+
+.blue {
+    background: linear-gradient(180deg, rgb(0, 0, 255), rgba(0, 0, 255, 0.4), rgba(0, 0, 255, 0.9));
+}
+
+.green {
+    background: linear-gradient(180deg, rgb(0, 255, 0), rgba(0, 255,
+                0, 0.4), rgba(0, 255, 0, 0.9));
+}
+
+.cap {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.sleeve {
+    width: 65%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    float: right;
+    margin-right: 6%;
+    border-right: 12px black double;
+    border-left: 2px solid black;
+}
